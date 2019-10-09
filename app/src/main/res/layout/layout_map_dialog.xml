@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="25dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_title"
+        android:hint="Title"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/add_lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_title"
+        android:hint="Latitude"></EditText>
+
+    <EditText
+    android:id="@+id/add_long"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/add_lat"
+    android:hint="Longitude"></EditText>
+
+    <EditText
+        android:id="@+id/add_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/add_long"
+        android:inputType="number"
+        android:hint="Rate 1-5"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_currentRating"
+        android:layout_below="@+id/add_number"
+        android:visibility="invisible"
+        ></TextView>
+
+
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/lbl_currentRating"
+         />
+
+
+
+</RelativeLayout>

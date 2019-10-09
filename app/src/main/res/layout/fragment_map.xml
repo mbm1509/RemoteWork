@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+
+    <CheckBox
+        android:id="@+id/cb_myLocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show My Locations Only"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/cb_Raidus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show in 100km range Locations"
+        app:layout_constraintTop_toBottomOf="@+id/cb_myLocations"
+        tools:layout_editor_absoluteX="0dp"></CheckBox>
+
+
+    <EditText
+        android:id="@+id/add_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Range in kilometers"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_Raidus" />
+
+    <ListView
+        android:id="@+id/listview_mapList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_range"></ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986310691139",
+    "firebase_url": "https://remote-work-v2.firebaseio.com",
+    "project_id": "remote-work-v2",
+    "storage_bucket": "remote-work-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986310691139:android:2ad381dcddbe9fa65d47f6",
+        "android_client_info": {
+          "package_name": "com.mosis.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986310691139-1hhbnrn11cht3mnqih9vb980nq00ufoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mosis.myapplication",
+            "certificate_hash": "79b4be0d2a94377b39c8722a1423f5d637001651"
+          }
+        },
+        {
+          "client_id": "986310691139-isggjmirv3cgj9ko7ppsrdveg2d9vk43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtQKnpLFR9h3cT2EIKZ_PFmNMe7C5Zyhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986310691139-isggjmirv3cgj9ko7ppsrdveg2d9vk43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
