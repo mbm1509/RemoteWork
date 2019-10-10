@@ -47,7 +47,7 @@ public class FriendsFragment extends Fragment {
 
                     final UserModel model = ds.getValue(UserModel.class);
 
-                    userList.add(model.getFirstName() + " " + model.getLastName() + "Score : " + model.getScore());
+                    userList.add(model.getFirstName() + " " + model.getLastName() + " Score : " + model.getScore());
 
                 }
 

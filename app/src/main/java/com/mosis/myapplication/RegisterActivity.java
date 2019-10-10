@@ -88,17 +88,14 @@ public class RegisterActivity extends AppCompatActivity {
 
         // get error label
 
-
-        CreateAccount(user);
-
-      /*  if(user.RegisterValidation()){
+        if(user.RegisterValidation()){
 
             CreateAccount(user);
 
         }else{
             TextView error = findViewById(R.id.lblError);
             error.setText("Authentication failed!" + "Please fill all fields.");
-        }*/
+        }
 
     }
 

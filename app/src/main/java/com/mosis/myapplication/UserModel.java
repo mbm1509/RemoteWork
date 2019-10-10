@@ -155,10 +155,6 @@ public class UserModel {
             return false;
         }
 
-        if(HasPhoto == false){
-            return false;
-        }
-
         return true;
     }
 

@@ -53,9 +53,9 @@ public class UserDialog extends AppCompatDialogFragment {
         tbxPhoneNumber = (TextView) view.findViewById(R.id.lbl_phone);
 
         tbxUsername.setText("UserName : " + selectedUser.getUserName());
-        tbxPhoneNumber.setText("Phone Number " + selectedUser.getPhoneNumber());
+        tbxPhoneNumber.setText("Phone Number : " + selectedUser.getPhoneNumber());
         tbxName.setText("Name : " + selectedUser.getFirstName() + " " + selectedUser.getLastName());
-        tbxEmail.setText("Email Address :" + selectedUser.getEmailAddress());
+        tbxEmail.setText("Email Address : " + selectedUser.getEmailAddress());
 
 
         return builder.create();

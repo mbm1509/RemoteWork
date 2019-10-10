@@ -87,7 +87,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             // for Activity#requestPermissions for more details.
             return;
         }
-        locationManager.requestLocationUpdates("gps", 5000, 3, locationListener);
+        locationManager.requestLocationUpdates("gps", 10000, 5, locationListener);
 
         BottomNavigationView bottomNav = findViewById(R.id.bottomNavigationViewMap);
 
